@@ -1,7 +1,7 @@
 <?php
 
     // base dir
-    if (!defined('RESPOND_DIR')) define('RESPOND_DIR', dirname(__FILE__));
+    if (!defined('RESPOND_DIR')) define('RESPOND_DIR', __DIR__);
 
 	// Version
 	define('VERSION', '2.9.1');
